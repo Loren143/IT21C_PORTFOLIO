@@ -6,9 +6,9 @@ public class Main {
 
    
     public static void main(String[] args) {
-       Polymorphism_Book my_book = new Polymorphism_Book ();
-        Polymorphism_Drinks my_drinks = new Polymorphism_Drinks ();
-        Polymorphism_Food my_food = new Polymorphism_Food ();
+       polymorphism_book my_book = new polymorphism_book ();
+        polymorphism_drinks my_drinks = new polymorphism_drinks ();
+        polymorphism_food my_food = new polymorphism_food ();
         
        
         
