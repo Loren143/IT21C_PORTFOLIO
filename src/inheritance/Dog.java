@@ -1,13 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package inheritance;
 
-/**
- *
- * @author user
- */
-public class Dog {
+
+public class Dog extends Animal{
     
+ Dog(String Dog){
+      super(Dog);
+    }
+    
+    void tulog(){
+        System.out.println( Animal +" kay na tulog");
+    }
+    
+    void meowmeow(){
+        System.out.println( Animal +" kay ga kalamorag meowmeow");
+    }
+    
+    void kaon(){
+        System.out.println( Animal +" kay nag kaon ");
+    }
 }
