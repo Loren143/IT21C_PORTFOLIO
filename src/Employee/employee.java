@@ -19,9 +19,9 @@ public class employee {
       public static void main(String[]args){
         
         
-      Employee employee1 = new Employee("Roberta Petrus ",50000,LocalDate.parse("2021-04-01"));
-      Employee employee2 = new Employee("Lyod Blair ",70000000,LocalDate.parse( "2011-09-05"));
-      Employee employee3 = new Employee("Magdalena Artemon ",100, LocalDate.parse("2001-08-05"));        
+      employee employee1 = new employee("Roberta Petrus ",50000,LocalDate.parse("2021-04-01"));
+      employee employee2 = new employee("Lyod Blair ",70000000,LocalDate.parse( "2011-09-05"));
+      employee employee3 = new employee("Magdalena Artemon ",100, LocalDate.parse("2001-08-05"));        
                                   
                                        
        System.out.println("name: "+ employee1.name +   "salary: "+ employee1.salary + " "+ "hiredate:"+ employee1.hiredate);
